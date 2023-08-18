@@ -1,0 +1,13 @@
+.options {
+  padding: 20px 30px;
+  margin: auto;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(4, 9, 74, 0.79);
+}
+.individual-option {
+  padding: 20px 0;
+}
+.radio {
+  padding-left: 20px;
+}

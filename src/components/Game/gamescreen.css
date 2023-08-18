@@ -1,0 +1,57 @@
+.acive-player {
+  background-color: rgba(105, 224, 212, 0.603);
+  color: rgb(205, 149, 101);
+}
+.inactive {
+  background-color: rgba(17, 114, 104, 0.934);
+  color: aliceblue;
+}
+.player {
+  display: inline-block;
+  width: 49.8%;
+  margin: 0px 0px;
+  height: 120px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 700;
+}
+.player1 {
+  position: absolute;
+  left: 0;
+  padding-left: 20%;
+}
+.player2 {
+  position: absolute;
+  right: 0;
+  padding-right: 20%;
+}
+.main-app {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.player-details {
+  position: relative;
+  width: 100%;
+  height: 27.5%;
+}
+.loading {
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+.question-area {
+  position: relative;
+  width: 100%;
+  height: 72%;
+  background-color: rgba(205, 235, 232, 0.705);
+}
+@media only screen and (max-width: 600px) {
+  .player {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
